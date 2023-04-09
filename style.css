@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+h1  {
+    font-family: 'Dancing Script', cursive;
+}
+.hero_background{
+    background-image: url(images/headerimage.png);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+
+}
+.services{
+    background-image: linear-gradient(to right bottom, #0757e6, #0087ff, #00a8f0, #00c2c9, #00d7a2, #00e189, #34e966, #61f031, #7ff33c, #98f647, #adf853, #c0fb5f);
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+.card img{
+    min-width: 50%;
+    max-height: 200px;
+}
